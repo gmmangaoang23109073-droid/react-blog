@@ -1,0 +1,729 @@
+/*Global*/
+body {
+    background-image: url("images/coquette.jpg");
+    margin: 0;
+    font-family: "Comic Sans MS", sans-serif;
+    color: #731C37;
+    padding-top: 120px;
+    background-repeat: repeat;
+    background-size: 200px; 
+}
+
+.header{
+    position: fixed; 
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #FA9AC0;
+    padding: 20px;
+    text-align: center;
+    z-index: 1000;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1); 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 50px;
+
+  padding: 15px 40px;
+}
+
+.header .site-title {
+    margin: 0;
+    font-family: "Lucida Handwriting";
+}
+
+.nav-bar ul {
+    display: flex;
+  align-items: center;
+  gap: 20px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-bar li {
+    display: inline;
+    margin: 0 10px;
+}
+
+.nav-bar a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    margin: 0 10px;
+    padding: 6px 12px;
+    border-radius: 20px;
+    transition: all 0.3s ease;
+}
+
+nav a:hover {
+    background: #ff6fa5;
+    border-radius: 5px;
+}
+
+nav a.active {
+    background: #ff4f91;
+    border-radius: 5px;
+    background-color: white;
+    color: #FA9AC0;
+    font-weight: bold;
+}
+
+.container {
+	width: 800px;
+	background-color: rgba(250, 154, 192, 0.7);
+	padding: 5px;
+	border-radius: 20px;
+	margin: 0px auto;
+	text-align: center;
+
+}
+
+.footer {
+    background-color: #FA9AC0;
+    text-align: center;
+    color: white;
+    padding: 15px;
+    margin-top: 30px;
+}
+
+body.dark-mode .footer {
+  background: #1c1c1c;
+  color: #f5f5f5;
+}
+
+/* Footer text & links */
+body.dark-mode .footer p,
+body.dark-mode .footer a {
+  color: #f5f5f5;
+}
+
+/* Optional pink accent */
+body.dark-mode .footer a:hover {
+  color: #FA9AC0;
+}
+
+
+
+*/HOME PAGE*/
+.profile-pic{
+    border: 2px solid #FF1493;
+    border-radius: 20px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.9);
+	}
+
+/* Hero Section */
+.hero {
+    text-align: center;
+    width: 50%;
+    margin: auto;
+    padding: 20px;
+}
+
+.title {
+    font-family: "Lucida Handwriting";
+    color: #731C37;
+}
+
+.name {
+    font-family: "Brush Script MT";
+    font-size: 36px;
+}
+
+.text {
+    font-size: 20px;
+}
+
+
+.profile-pic {
+    width: 300px;
+    height: 400px;
+    margin: 15px 0;
+     border: 2px solid #FF1493;
+    border-radius: 10px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.7);
+
+}
+
+.previews {
+    width: 60%;
+    margin: 30px auto;
+    text-align: center;
+}
+
+.preview {
+    margin-bottom: 20px;
+}
+
+.preview h4 {
+    font-size: 24px;
+}
+
+.preview a {
+    color: #FF1493;
+    text-decoration: underline;
+}
+
+
+.highlights {
+    width: 50%;
+    margin: auto;
+}
+
+.highlights ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+
+
+
+
+
+
+
+/*ABOUT PAGE*/
+.about-content {
+    width: 60%;
+    margin: 30px auto;
+    text-align: center;
+}
+
+/*Titles*/
+.about-title,
+.section-title {
+    font-family: "Brush Script MT";
+    color: #731C37;
+    font-size: 36px;
+    margin: 30px 0 15px;
+}
+
+/*About Intro*/
+.about-intro {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.about-pic {
+    width: 300px;
+    height: 300px;
+    margin: 10px;
+    border-radius: 10px;
+    border: 2px solid #FF1493;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.9);
+}
+
+
+.about-text {
+    font-family: "Comic Sans MS";
+    font-size: 20px;
+    color: #731C37;
+    max-width: 500px;
+    margin: 10px;
+    text-align: left;
+}
+
+/*Sections*/
+.section {
+    border: 2px solid #FF1493;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 30px;
+    align-items: center;
+}
+
+/*Images*/
+.small-img {
+    display: inline-block;
+    width: 200px;
+    margin: 10px;
+    border-radius: 8px;
+    border: 2px solid #FF1493;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.5);
+}
+
+.item {
+	display: inline-block;
+	width: 260px;
+	margin: 10 px;
+	}
+
+
+/*Lists*/
+.list {
+    font-family: "Comic Sans MS";
+    font-size: 22px;
+    color: #731C37;
+    text-align: left;
+    padding-left: 20px;
+}
+
+.list li {
+    margin-bottom: 15px;
+}
+
+/* Ordered list (timeline) */
+ol.list {
+  list-style-type: decimal;
+  padding-left: 40px;
+  color: #731C37;
+  font-family: "Comic Sans MS";
+  font-size: 17px;
+  line-height: 1.8;
+}
+
+/* Each timeline item */
+  ol.list li {
+  margin-bottom: 14px;
+  ont-weight: normal;
+}
+
+.container2 {
+	width: 700px;
+	background-color: rgba(250, 154, 192, 0.7);
+	padding: 5px;
+	border-radius: 20px;
+	margin: 0px auto;
+	text-align: center;
+	transparency: 
+
+}
+
+/*Quote*/
+.quote {
+    font-family: "Comic Sans MS";
+    font-size: 24px;
+    color: #731C37;
+    font-style: italic;
+    border-left: 5px solid #C6186C;
+    padding-left: 15px;
+    max-width: 600px;
+    margin: 30px auto;
+    text-align: left;
+}
+
+
+
+
+
+/*CONTACT PAGE*/
+.contact-title {
+    text-align: center;
+    font-family: "Brush Script MT";
+    color: #731C37;
+    font-size: 36px;
+
+	}
+
+.contact-form {
+    width: 50%;
+    margin: 40px auto 30px; /* top, sides, bottom spacing */
+    text-align: left;
+}
+
+.contact-form label {
+    display: block;
+    margin-top: 15px;
+    font-family: "Comic Sans MS";
+    font-size: 18px;
+    color: #731C37;
+
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 2px solid #FF1493;
+    border-radius: 5px;
+    font-family: "Comic Sans MS";
+    font-size: 16px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.7);
+
+
+}
+
+
+.contact-form textarea {
+    height: 100px;
+    resize: vertical;
+    }
+
+.contact-form button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #FF1493;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-family: "Comic Sans MS";
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background-color: #FF69B4;
+}
+
+.section-title {
+    text-align: center;
+	}
+
+.container1 {
+	width: 1200px;
+	background-color: #FA9AC0;
+	padding: 5px;
+	border-radius: 20px;
+	margin: 0px auto;
+	text-align: center;
+
+}
+
+
+.map {
+    text-align: center;  
+}
+
+.map iframe {
+    display: block;
+    margin: auto;
+    border: 2px;
+    border-radius: 20px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.9);
+
+}
+
+.resources-table {
+    width: 80%;
+    margin: 30px auto;
+    border-collapse: collapse;
+}
+
+.resources-table th,
+.resources-table td {
+    border: 2px solid #FF1493;
+    padding: 10px;
+    text-align: left;
+    font-family: "Comic Sans MS";
+    font-size: 18px;
+}
+
+.resources-table th {
+    background-color: #FA9AC0;
+    color: #731C37;
+}
+
+.resources-table td {
+    color: #731C37;
+	}
+
+
+
+
+
+/* REGISTER PAGE */
+
+/* Header */
+.header {
+    background: #ff9fc9;
+    padding: 15px 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Intro section */
+.intro {
+    text-align: center;
+    padding: 10px;
+    color: #731C37;
+}
+
+/* Decorative image */
+.decor img {
+    width: 700px;
+    max-width: 100%;
+    height: 700px;
+    border: 2px solid #FF1493;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.4);
+    border-radius: 10px;
+}
+
+/* Form wrapper */
+.join-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    width: 100%;
+    padding: 40px 20px;
+}
+
+/* FORM */
+.register-form {
+    background: white;
+    padding: 25px;
+    width: 600px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.4);
+}
+
+/* Labels */
+.register-form label {
+    margin-top: 10px;
+    color: #731C37;
+    font-weight: 500;
+}
+
+/* Inputs & Select */
+.register-form input,
+.register-form select {
+    padding: 8px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 1px solid #ff9fc9;
+    font-size: 14px;
+}
+
+/* Radio buttons */
+.radio-group {
+    margin: 8px 0;
+}
+
+/* Checkbox */
+.checkbox {
+    margin-top: 12px;
+    font-size: 14px;
+}
+
+/* Error messages */
+.error {
+    color: red;
+    font-size: 0.85em;
+    margin-top: 3px;
+}
+
+/* Button */
+button {
+    margin-top: 20px;
+    padding: 10px;
+    background: #ff4f91;
+    border: none;
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+button:hover {
+    background: #ff2f7f;
+}
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+    .join-wrapper {
+        flex-direction: column;
+        gap: 30px;
+    }
+}
+
+@media (max-width: 600px) {
+    .register-form {
+        width: 100%;
+    }
+}
+
+
+
+
+ 
+.quiz-container {
+  background: #FA9AC0;
+  padding: 25px 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.1);
+  width: 400px;
+
+  margin: 60px auto;
+}
+
+/* ===== QUESTION ===== */
+h2 {
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+/* ===== OPTIONS ===== */
+.options {
+  margin-bottom: 20px;
+}
+
+.option {
+  background: #f4f4f4;
+  border-radius: 5px;
+  padding: 10px 15px;
+  margin: 8px 0;
+  cursor: pointer;
+  border: 2px solid transparent;
+  transition: border-color 0.3s;
+}
+
+.option:hover {
+  border-color: #007bff;
+}
+
+.option.selected {
+  background: #d0e7ff;
+  border-color: #007bff;
+}
+
+
+button {
+  background: #007bff;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%;
+}
+
+button:disabled {
+  background: #cccccc;
+  cursor: default;
+}
+
+/* ===== RESULT ===== */
+#result {
+  margin-top: 20px;
+  font-weight: bold;
+  text-align: center;
+}
+
+
+
+.dark-btn {
+  background: transparent;
+  border: none;
+  width: 40px;
+  height: 40px;
+
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  font-size: 20px;
+  cursor: pointer;
+  color: inherit;
+
+  padding: 0;
+  margin-right: 50px;
+  margin-bottom: 20px;
+}
+
+.action-buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.dark-btn:hover {
+  transform: scale(1.1);
+}
+
+.dark-toggle {
+  display: flex;
+  align-items: center;
+}
+
+
+/* ===== GLOBAL DARK MODE ===== */
+body.dark-mode {
+  background: #121212;
+  color: #f5f5f5;
+}
+
+/* Header */
+body.dark-mode .header {
+  background: #1c1c1c;
+}
+
+/* Site title */
+body.dark-mode .site-title {
+  color: #FA9AC0;
+}
+
+/* Nav links */
+body.dark-mode .nav-bar a {
+  color: #ffffff;
+}
+
+body.dark-mode .nav-bar a:hover,
+body.dark-mode .nav-bar a.active {
+  color: #FA9AC0;
+}
+
+/* Content sections */
+body.dark-mode .section,
+body.dark-mode .about-content {
+  background: #1f1f1f;
+}
+
+/* Quiz */
+body.dark-mode .quiz-container {
+  background: #2b2b2b;
+}
+
+/* Options */
+body.dark-mode .option {
+  background: #3a3a3a;
+  color: #ffffff;
+}
+
+body.dark-mode .option.selected {
+  background: #FA9AC0;
+  color: #000;
+}
+
+/* Buttons */
+body.dark-mode button {
+  background: #FA9AC0;
+  color: #000;
+}
+
+/* Smooth transitions */
+body, .header, .section, .quiz-container {
+  transition: background 0.1s, color 0.1s;
+}
+
+/* Add this to the bottom of your existing CSS file */
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-20px); }
+}
+
+.spinner-animate {
+  animation: spin 1s linear infinite;
+}
+
+.logo-float {
+  animation: float 3s ease-in-out infinite;
+}
+
+/* Fix for the white background issue */
+.splash-bg {
+  background: linear-gradient(135deg, #FA9AC0 0%, #ff6fa5 100%);
+  background-attachment: fixed;
+}
